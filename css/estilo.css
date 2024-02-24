@@ -74,10 +74,16 @@
     #efff14box-shadow: 3px 3px 3px 3px rgb(250, 0, 125)
 }
 
+.header .titulobanner{
+    text-align: center;
+}
 .header .banner img {
     width: 100vw;
     height: 350px;
 
+}
+.paquetes_titulobanner{
+    text-align: center;
 }
 
 .seccion1-index h2 {
