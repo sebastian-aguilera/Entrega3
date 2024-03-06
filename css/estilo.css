@@ -63,8 +63,6 @@
 
 
 .header nav ul li a {
-    /* background-color: rgb(247, 10, 108); */
-    /* color: rgb(30, 235, 12); */
     font-size: 25px;
     text-decoration: none;
     margin: 0 20px;
@@ -74,15 +72,7 @@
     #efff14box-shadow: 3px 3px 3px 3px rgb(250, 0, 125)
 }
 
-.header .titulobanner{
-    text-align: center;
-}
-.header .banner img {
-    width: 100vw;
-    height: 350px;
-
-}
-.paquetes_titulobanner{
+.paquetes_titulobanner {
     text-align: center;
 }
 
@@ -106,22 +96,8 @@ article {
     justify-content: center;
 }
 
-.banner {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center width: 100vw;
-    padding-bottom: 75px;
-
-
-}
 
 /* Pseudoclases */
-.header nav ul li:hover {
-
-    /* background-color:  rgb(4, 155, 243); */
-
-}
 
 .header nav ul li a:hover {
 
