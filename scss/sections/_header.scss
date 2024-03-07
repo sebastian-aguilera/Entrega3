@@ -1,0 +1,132 @@
+/* .header .banner img {
+    width: 100vw;
+    
+
+} */
+
+.paquetes_titulobanner {
+    text-align: center;
+}
+
+.seccion1-index h2 {
+    color: #f80663;
+}
+
+.seccion1-index .articulo1 img {
+    width: 500px;
+    image-orientation: center;
+}
+
+article {
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Pseudoclases */
+
+.header nav ul li a:hover {
+
+    color: rgb(227, 240, 56);
+    animation-delay: 2s;
+    /* padding: 0 1rem; */
+}
+
+
+/* Banner */
+
+#slider {
+    width: 100%;
+    background-color: #007bb5;
+    /* border: solid white; */
+    overflow: hidden;
+
+
+}
+
+#contenedor {
+    display: grid;
+    grid-template-columns: 100% 100% 100%;
+    width: 100%;
+    animation-name: mover;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#imagen1 {
+    background-image: url('../resources/definbanner.jpg');
+    width: 100%;
+    height: 430px;
+    background-size: cover;
+}
+
+#imagen2 {
+    background-image: url('../resources/banner2.jpg');
+    width: 100%;
+    height: 430px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    justify-content: center;
+}
+
+#imagen3 {
+    background-image: url('../resources/banner3.jpg');
+    width: 100%;
+    height: 430px;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+.banner_fuente {
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+
+}
+
+@keyframes mover {
+
+    25% {
+        margin-left: 0%;
+
+
+    }
+
+    28% {
+        transition-delay: 5s;
+        margin-left: -100%;
+
+    }
+
+    54% {
+        transition-delay: 5s;
+        margin-left: -100%;
+
+    }
+
+    58% {
+        transition-delay: 5s;
+        margin-left: -200%;
+
+    }
+
+    95% {
+        transition-delay: 5s;
+        margin-left: -200%;
+
+    }
+
+    100% {
+        transition-delay: 5s;
+        margin-left: 0%;
+    }
+
+}
